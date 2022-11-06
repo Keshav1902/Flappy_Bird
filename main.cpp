@@ -129,8 +129,11 @@ void instructions(){
 	
 	system("cls");
 	cout<<"Instructions";
-	cout<<"\n----------------";
+	cout<<"\n-----------------------";
 	cout<<"\n Press spacebar to make bird fly";
+    cout<<"\n Avoid collision of bird with pipes";
+    cout<<"\n Note your score under the score column at the right portion";
+    cout<<"\n-----------------------";
 	cout<<"\n\nPress any key to go back to menu";
 	getch();
 }
